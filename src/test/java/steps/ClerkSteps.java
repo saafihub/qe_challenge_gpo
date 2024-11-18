@@ -98,7 +98,7 @@ public class ClerkSteps {
         List<Map<String, String>> list = dataTable.asMaps(String.class, String.class);
         for (int i = 0; i < list.size(); i++) {
             jsonBody = new JSONObject();
-            jsonBody.put("natid", "natid-100001");
+            jsonBody.put("natid", list.get(i).get("natid"));
             jsonBody.put("name", list.get(i).get("name"));
             jsonBody.put("gender", list.get(i).get("gender"));
             jsonBody.put("birthDate", list.get(i).get("birthDate"));
