@@ -115,7 +115,7 @@ Feature: Working Class Hero creation using API
     Then verify status code for invalid natid is 400
     And  Response message contains "must be greater than or equal to 0"
 
-  @APIXX
+  @API
   Scenario: Check with creation of duplicate Single Working Class Hero
     Given headers added to payload
       |HEADER         |VALUE|
