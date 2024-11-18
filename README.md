@@ -12,7 +12,9 @@ For More Info : Automation Test Strategy document.docx
 
 ```
 Why Playwright?
-Playwright over selenium for faster, more reliable test execution with built-in features like automatic waiting, cross-browser consistency, and modern web support. Playwright simplifies test writing and offers better handling of complex web applications, while Selenium can be slower and requires more manual setup and synchronization.
+Playwright over selenium for faster, more reliable test execution with built-in features 
+like automatic waiting, cross-browser consistency, and modern web support. Playwright simplifies test writing and offers 
+better handling of complex web applications, while Selenium can be slower and requires more manual setup and synchronization.
 ```
 
 ## Framework Structure
