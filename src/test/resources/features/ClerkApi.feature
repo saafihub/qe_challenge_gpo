@@ -104,6 +104,17 @@ Feature: Working Class Hero creation using API
     And  Response message contains "Salary must be greater than or equals to zero"
 
   @API
+  Scenario: Check with creation of Working Class Hero with nullable browniepoints and deathdate
+    Given headers added to payload
+      |HEADER         |VALUE|
+      |Content-Type| application/json |
+    And Make request for Single working class hero with nullable on browniepoints and deathdate
+      | natid			| name           | gender	|	birthDate	|	deathDate	|	salary	|	taxPaid	|	browniePoints	|
+      | natid-100001	| Maria Serapovo | FEMALE	|	2002-07-21	|				|	10500	|	750		|				|
+    When Request Post action Sent To "api/v1/hero"
+    And verify status code is 200
+
+  @API
   Scenario: Check with invalid taxpaid
     Given headers added to payload
       |HEADER         |VALUE|
