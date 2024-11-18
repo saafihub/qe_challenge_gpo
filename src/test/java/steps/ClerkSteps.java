@@ -93,12 +93,32 @@ public class ClerkSteps {
     }
 
     @SuppressWarnings("unchecked")
-    @Given("Make request for Single working class hero with existing natid details")
-    public void requestBodyForSingleWorkingClassHeroWithExistingNatid(io.cucumber.datatable.DataTable dataTable) {
+    @Given("Make request for Single working class hero with nullable on browniepoints and deathdate")
+    public void request_For_SingleWorkingClassHero_with_nullable_browniepoints(io.cucumber.datatable.DataTable dataTable) {
         List<Map<String, String>> list = dataTable.asMaps(String.class, String.class);
         for (int i = 0; i < list.size(); i++) {
             jsonBody = new JSONObject();
-            jsonBody.put("natid", list.get(i).get("natid"));
+            jsonBody.put("natid", "natid-100001");
+            jsonBody.put("name", list.get(i).get("name"));
+            jsonBody.put("gender", list.get(i).get("gender"));
+            jsonBody.put("birthDate", list.get(i).get("birthDate"));
+            jsonBody.put("deathDate", list.get(i).get("deathDate"));
+            jsonBody.put("salary", list.get(i).get("salary"));
+            jsonBody.put("taxPaid", list.get(i).get("taxPaid"));
+            jsonBody.put("browniePoints", list.get(i).get("browniePoints"));
+
+            System.out.println("JSON object is : " + jsonBody.toJSONString());
+        }
+        request.body(jsonBody);
+    }
+
+    @SuppressWarnings("unchecked")
+    @Given("Make request for Single working class hero with existing natid details")
+    public void request_ForSingleWorkingClassHero_ExistingNatid(io.cucumber.datatable.DataTable dataTable) {
+        List<Map<String, String>> list = dataTable.asMaps(String.class, String.class);
+        for (int i = 0; i < list.size(); i++) {
+            jsonBody = new JSONObject();
+            jsonBody.put("natid", "natid-100001");
             jsonBody.put("name", list.get(i).get("name"));
             jsonBody.put("gender", list.get(i).get("gender"));
             jsonBody.put("birthDate", list.get(i).get("birthDate"));
