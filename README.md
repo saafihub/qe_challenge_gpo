@@ -10,6 +10,11 @@ By combining various testing methodologies not only ensured complete coverage of
 
 For More Info : Automation Test Strategy document.docx
 
+```
+Why Playwright?
+Playwright over selenium for faster, more reliable test execution with built-in features like automatic waiting, cross-browser consistency, and modern web support. Playwright simplifies test writing and offers better handling of complex web applications, while Selenium can be slower and requires more manual setup and synchronization.
+```
+
 ## Framework Structure
       src
       ├── main
@@ -43,7 +48,7 @@ For More Info : Automation Test Strategy document.docx
 1. Clone the repository to your local machine:  `qe_challenge_gpo`.
 
    ```
-   git clone https://github.com/saafihub/qe_challenge_gpo.git
+   git clone https://github.com/yourusername/qe_challenge_gpo.git
    cd qe_challenge_gpo
    ```
 3. Install necessary dependencies.
@@ -75,5 +80,5 @@ For More Info : Automation Test Strategy document.docx
    ```
 6. View reports and logs.
    ```
-    1. Check reports for all tests --> target>>cucumber-reports
+    1. Check reports for all tests --> target>>cucumber-reports.html
     ```
