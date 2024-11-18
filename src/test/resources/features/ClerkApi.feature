@@ -115,7 +115,7 @@ Feature: Working Class Hero creation using API
     Then verify status code for invalid natid is 400
     And  Response message contains "must be greater than or equal to 0"
 
-  @API
+  @APIXX
   Scenario: Check with creation of duplicate Single Working Class Hero
     Given headers added to payload
       |HEADER         |VALUE|
@@ -123,7 +123,7 @@ Feature: Working Class Hero creation using API
     And Make request for Single working class hero with existing natid details
       | natid			| name           | gender	|	birthDate	|	deathDate	|	salary	|	taxPaid	|	browniePoints	|
       | natid-100001	| Maria Serapovo | FEMALE	|	2002-07-21	|				|	10500	|	750		|	6				|
-      | natid-100001	| Maria Marapoo  | FEMALE 	|	1998-10-26	|				|	11250	|	950		|	7				|
+      | natid-100001	| Maria Serapovo | FEMALE	|	2002-07-21	|				|	10500	|	750		|	6				|
     When Request Post action Sent To "api/v1/hero"
     Then verify status code is should be either of 400 and 500
     And  Response message contains "Working Class Hero of natid: natid-100001 already exists!"
