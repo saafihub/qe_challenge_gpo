@@ -54,10 +54,10 @@ Playwright over selenium for faster, more reliable test execution with built-in 
 
    ```
    Ensure Java, Node.js, and Maven are correctly installed by verifying their versions:
-   java -version
-   node -v
-   npm -v
-   mvn -v
+   - java -version
+   - node -v
+   - npm -v
+   - mvn -v
    ```
 4. Install browsers.
 
