@@ -1,10 +1,9 @@
 ## About
 QE Technical Assignment : Playwright(UI)+Rest Assured(API)+Java
 
-This Playwright-based Java automation framework is structured using the Page Object Model (POM) and Playwright Fixtures. It is designed to accommodate multiple types of tests—API, UI functionality, with BDD within a single framework. The framework is built with scalability and extensibility in mind to add more test types with enhanced 
-maintainability, reusability and also by separating concerns (e.g., test logic, page objects, and test data), the framework makes it easier to manage and scale as the application grows.
+This Playwright-based Java automation framework is structured using the Page Object Model (POM) and Playwright features. It is designed to accommodate multiple types of tests—API, UI functionality, with BDD Style within a single framework. The framework is built with scalability and extensibility in mind to add more test types with enhanced maintainability, reusability and also by separating concerns (e.g., test logic, page objects, and test data), the framework makes it easier to manage and scale as the application grows.
 
-In this Functional automation framework(Hybrid), Covered all 6 user stories through comprehensive End-to-End (E2E) testing. This approach integrated multiple testing layers, including API, UI, and database validations, ensuring a robust assessment of our application’s functionality and performance. 
+In this Functional automation framework(Hybrid), Covered all 6 user stories through comprehensive End-to-End (E2E) testing. This approach integrated multiple testing layers, including API, UI, and database validations, ensuring a robust assessment of  application’s functionality and performance. 
 
 By combining various testing methodologies not only ensured complete coverage of user requirements also improved the clarity and communication of test cases among stakeholders. This holistic approach significantly contributes to delivering a high-quality product that aligns with user expectations.
 
@@ -12,17 +11,14 @@ For More Info : Automation Test Strategy document.docx
 
 ```
 Why Playwright?
-Playwright over selenium for faster, more reliable test execution with built-in features waiting, 
-cross-browser consistency, and modern web support. Playwright simplifies test writing and offers 
-better handling of complex web applications, while Selenium can be slower and requires more manual 
-setup and synchronization.
+Playwright over selenium for faster, more reliable test execution with built-in features like automatic waiting, cross-browser consistency, and modern web and api support. Playwright simplifies test writing and offers better handling of complex web applications, while Selenium can be slower and requires more manual setup and synchronization.
 ```
 
 ## Framework Structure
       src
       ├── main
       │    ├── java(org.gpo)
-      │    │   ├── driver          # driver files
+      │    │   ├── driver          # driver file
       │    │   ├── pages           # Page Object Model (POM) classes
       │    │   ├── utils           # Utility classes (e.g., helper methods, constants)
       │    └── test
