@@ -1,0 +1,6 @@
+natid,name,gender,birthDate,deathDate,taxPaid,browinePoints
+natid-500001,John Anjela,MALE,1995-12-12,45000,4500,15
+natid-500002,Anjala Chali,FEMALE,1995-05-07,43000,4200,8
+natid-500003,Jale Male,MALE,1981-08-05,33000,2900,12
+natid-500004,May flower,FEMALE,2001-04-09,25000,2200,5
+natid-500005,April Paye,FEMALE,2006-09-16,21000,1845,7

@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "message": {
+      "type": "object",
+      "properties": {
+        "data": {
+          "type": "string",
+          "pattern": "^natid-\\d+$"
+        },
+        "status": {
+          "type": "string",
+          "enum": ["OWE"]
+        }
+      },
+      "required": ["data", "status"]
+    },
+    "timestamp": {
+      "type": "string"
+    }
+  },
+  "required": ["message", "timestamp"]
+}
