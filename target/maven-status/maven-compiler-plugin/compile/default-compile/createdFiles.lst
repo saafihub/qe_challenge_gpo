@@ -1,0 +1,7 @@
+org\gpo\pages\CDashboardPage.class
+org\gpo\pages\LoginPage.class
+org\gpo\utils\ConfigReader.class
+org\gpo\pages\CDashboardAddPage.class
+org\gpo\utils\DBConnect.class
+org\gpo\pages\BKDashboardPage.class
+org\gpo\Driver.class

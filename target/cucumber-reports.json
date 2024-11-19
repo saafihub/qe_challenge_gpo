@@ -1,0 +1,5027 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 14329378700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Logged in to application as bookkeeper",
+            "match": {
+              "location": "steps.BKDashboardPageSteps.user_has_already_logged_in_to_application(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "bk",
+                  "bk"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-11-18T23:21:40.536Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2999400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Application.getBaseTest()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Validate BookKeeper Dashboard page",
+        "description": "",
+        "id": "generate-tax-relief-egress-file;validate-bookkeeper-dashboard-page",
+        "after": [
+          {
+            "result": {
+              "duration": 1999700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Application.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 999700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.ClerkSteps.closeDatabaseConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 997900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is on bookkeeper dashboard page",
+            "match": {
+              "location": "steps.BKDashboardPageSteps.user_is_on_bookkeeper_dashboard_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 258163500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user lands on the bookkeeper dashboard page",
+            "match": {
+              "location": "steps.BKDashboardPageSteps.user_gets_the_header_of_the_bookkeeper_dashboard_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4000500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "bookkeeper dashboard page header should be \"Book Keeper Dashboard\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Book Keeper Dashboard\"",
+                  "offset": 43
+                }
+              ],
+              "location": "steps.BKDashboardPageSteps.header_of_the_bookkeeper_dashboard_page_should_be(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@UI"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 499457000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Logged in to application as bookkeeper",
+            "match": {
+              "location": "steps.BKDashboardPageSteps.user_has_already_logged_in_to_application(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "bk",
+                  "bk"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-11-18T23:21:55.380Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2655000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Application.getBaseTest()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Generate Tax Relief Egress File Button is visible",
+        "description": "",
+        "id": "generate-tax-relief-egress-file;generate-tax-relief-egress-file-button-is-visible",
+        "after": [
+          {
+            "result": {
+              "duration": 1000200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Application.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.ClerkSteps.closeDatabaseConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3000700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user is on bookkeeper dashboard page",
+            "match": {
+              "location": "steps.BKDashboardPageSteps.user_is_on_bookkeeper_dashboard_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 315870800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "verify Generate Tax Relief Egress File button should be displayed",
+            "match": {
+              "location": "steps.BKDashboardPageSteps.verify_generate_tax_relief_egress_file_button_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@UI"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 412305200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Logged in to application as bookkeeper",
+            "match": {
+              "location": "steps.BKDashboardPageSteps.user_has_already_logged_in_to_application(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "bk",
+                  "bk"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-11-18T23:21:56.292Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Application.getBaseTest()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Generate Tax Relief Egress File Successfully",
+        "description": "",
+        "id": "generate-tax-relief-egress-file;generate-tax-relief-egress-file-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 998800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Application.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.ClerkSteps.closeDatabaseConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1999400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user is on bookkeeper dashboard page",
+            "match": {
+              "location": "steps.BKDashboardPageSteps.user_is_on_bookkeeper_dashboard_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 304701900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user click on the Generate Tax Relief Egress File button",
+            "match": {
+              "location": "steps.BKDashboardPageSteps.user_click_on_the_generate_tax_relief_egress_file_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1429946800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "verify the \"taxrelief.txt\" file is generated",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"taxrelief.txt\"",
+                  "offset": 11
+                }
+              ],
+              "location": "steps.BKDashboardPageSteps.verify_the_file_is_generated(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@UI"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 569838300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Logged in to application as bookkeeper",
+            "match": {
+              "location": "steps.BKDashboardPageSteps.user_has_already_logged_in_to_application(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "bk",
+                  "bk"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-11-18T23:21:58.501Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Application.getBaseTest()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Check file status in db once file process is triggered",
+        "description": "",
+        "id": "generate-tax-relief-egress-file;check-file-status-in-db-once-file-process-is-triggered",
+        "after": [
+          {
+            "result": {
+              "duration": 1017500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Application.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 2981400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.ClerkSteps.closeDatabaseConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 962937000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user establish a database connection",
+            "match": {
+              "location": "steps.ClerkSteps.establishDatabaseConnection()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 37547000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user execute query \"SELECT natid FROM working_class_heroes\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"SELECT natid FROM working_class_heroes\"",
+                  "offset": 19
+                }
+              ],
+              "location": "steps.ClerkSteps.executeQuery(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 999500,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user should receive a non empty resultset",
+            "match": {
+              "location": "steps.ClerkSteps.verifySingleUser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@UI"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 407570300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Logged in to application as bookkeeper",
+            "match": {
+              "location": "steps.BKDashboardPageSteps.user_has_already_logged_in_to_application(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "bk",
+                  "bk"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-11-18T23:22:00.127Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Application.getBaseTest()"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "Check the total count of records, if file has contents",
+        "description": "",
+        "id": "generate-tax-relief-egress-file;check-the-total-count-of-records--if-file-has-contents",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Application.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 999700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.ClerkSteps.closeDatabaseConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user is on bookkeeper dashboard page",
+            "match": {
+              "location": "steps.BKDashboardPageSteps.user_is_on_bookkeeper_dashboard_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 14988600,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user generated the file \"taxrelief.txt\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"taxrelief.txt\"",
+                  "offset": 24
+                }
+              ],
+              "location": "steps.BKDashboardPageSteps.verify_the_file_is_available_in_downloads_folder(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1001800,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "verify the total count of records written in \"taxrelief.txt\" file",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"taxrelief.txt\"",
+                  "offset": 45
+                }
+              ],
+              "location": "steps.BKDashboardPageSteps.verify_test_file_contents(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@UI"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 493690600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Logged in to application as bookkeeper",
+            "match": {
+              "location": "steps.BKDashboardPageSteps.user_has_already_logged_in_to_application(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "bk",
+                  "bk"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-11-18T23:22:00.669Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Application.getBaseTest()"
+            }
+          }
+        ],
+        "line": 38,
+        "name": "Check the total count, if file has empty records",
+        "description": "",
+        "id": "generate-tax-relief-egress-file;check-the-total-count--if-file-has-empty-records",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Application.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.ClerkSteps.closeDatabaseConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "user is on bookkeeper dashboard page",
+            "match": {
+              "location": "steps.BKDashboardPageSteps.user_is_on_bookkeeper_dashboard_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "user generated the file \"taxreliefEmpty.txt\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"taxreliefEmpty.txt\"",
+                  "offset": 24
+                }
+              ],
+              "location": "steps.BKDashboardPageSteps.verify_the_file_is_available_in_downloads_folder(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000800,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "verify the total count of records written as 0 in \"taxreliefEmpty.txt\" file",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"taxreliefEmpty.txt\"",
+                  "offset": 50
+                }
+              ],
+              "location": "steps.BKDashboardPageSteps.verify_test_empty_file_contents(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@UI"
+          }
+        ]
+      }
+    ],
+    "name": "Generate Tax Relief Egress File",
+    "description": "",
+    "id": "generate-tax-relief-egress-file",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/BKDashboard.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 607466200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user logged in to application as clerk",
+            "match": {
+              "location": "steps.CDashboardPageSteps.user_has_already_logged_in_to_application(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "clerk",
+                  "clerk"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-11-18T23:22:01.190Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Application.getBaseTest()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Validate User lands on Clerk Dashboard page",
+        "description": "",
+        "id": "upload-a-csv-file-to-populate-the-database-from-ui;validate-user-lands-on-clerk-dashboard-page",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Application.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.ClerkSteps.closeDatabaseConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1003900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is on Clerk dashboard page",
+            "match": {
+              "location": "steps.CDashboardPageSteps.user_is_on_clerk_dashboard_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 61784200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user lands on the header of the clerk dashboard page",
+            "match": {
+              "location": "steps.CDashboardPageSteps.user_gets_the_header_of_the_clerk_dashboard_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "clerk dashboard page header should be \"Clerk Dashboard\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Clerk Dashboard\"",
+                  "offset": 38
+                }
+              ],
+              "location": "steps.CDashboardPageSteps.header_of_the_clerk_dashboard_page_should_be(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@UI"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 399535700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user logged in to application as clerk",
+            "match": {
+              "location": "steps.CDashboardPageSteps.user_has_already_logged_in_to_application(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "clerk",
+                  "clerk"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-11-18T23:22:01.936Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Application.getBaseTest()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Add Hero Button is visible",
+        "description": "",
+        "id": "upload-a-csv-file-to-populate-the-database-from-ui;add-hero-button-is-visible",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Application.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.ClerkSteps.closeDatabaseConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 999200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user is on Clerk dashboard page",
+            "match": {
+              "location": "steps.CDashboardPageSteps.user_is_on_clerk_dashboard_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 162485200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "verify Add Hero button should be displayed",
+            "match": {
+              "location": "steps.CDashboardPageSteps.verify_add_hero_button_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@UI"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 510040300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user logged in to application as clerk",
+            "match": {
+              "location": "steps.CDashboardPageSteps.user_has_already_logged_in_to_application(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "clerk",
+                  "clerk"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-11-18T23:22:02.522Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Application.getBaseTest()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Upload a working record CSV File",
+        "description": "",
+        "id": "upload-a-csv-file-to-populate-the-database-from-ui;upload-a-working-record-csv-file",
+        "after": [
+          {
+            "result": {
+              "duration": 992300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Application.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.ClerkSteps.closeDatabaseConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1002000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user is on Clerk dashboard page",
+            "match": {
+              "location": "steps.CDashboardPageSteps.user_is_on_clerk_dashboard_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 231620400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user select upload a csv file from Add Hero dropdown",
+            "match": {
+              "location": "steps.CDashboardPageSteps.user_select_upload_a_csv_file_from_add_hero_dropdown()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 266855800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user upload working record csv file",
+            "match": {
+              "location": "steps.CDashboardPageSteps.user_upload_working_record_csv_file()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 129583600,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user click create button",
+            "match": {
+              "location": "steps.CDashboardPageSteps.user_click_create_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 861380600,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "\"Created Successfully!\" message should be displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Created Successfully!\"",
+                  "offset": 0
+                }
+              ],
+              "location": "steps.CDashboardPageSteps.message_should_be_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6493200,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "verify the count of \"WORKING_CLASS_HEROES\" in database table",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"WORKING_CLASS_HEROES\"",
+                  "offset": 20
+                }
+              ],
+              "location": "steps.CDashboardPageSteps.verify_the_count_of_in_database_table(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@UI"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 373125300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user logged in to application as clerk",
+            "match": {
+              "location": "steps.CDashboardPageSteps.user_has_already_logged_in_to_application(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "clerk",
+                  "clerk"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-11-18T23:22:04.550Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Application.getBaseTest()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "Upload a erroneous record CSV File",
+        "description": "",
+        "id": "upload-a-csv-file-to-populate-the-database-from-ui;upload-a-erroneous-record-csv-file",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Application.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.ClerkSteps.closeDatabaseConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1999300,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user is on Clerk dashboard page",
+            "match": {
+              "location": "steps.CDashboardPageSteps.user_is_on_clerk_dashboard_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 468253900,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user select upload a csv file from Add Hero dropdown",
+            "match": {
+              "location": "steps.CDashboardPageSteps.user_select_upload_a_csv_file_from_add_hero_dropdown()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 139683300,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user upload erroneous record csv file",
+            "match": {
+              "location": "steps.CDashboardPageSteps.user_upload_erroneous_record_csv_file()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 42427200,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user click create button",
+            "match": {
+              "location": "steps.CDashboardPageSteps.user_click_create_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 824630400,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "\"Unable to create hero!\" message should be displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Unable to create hero!\"",
+                  "offset": 0
+                }
+              ],
+              "location": "steps.CDashboardPageSteps.message_should_be_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7001200,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "verify the count of \"WORKING_CLASS_HEROES\" in database table",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"WORKING_CLASS_HEROES\"",
+                  "offset": 20
+                }
+              ],
+              "location": "steps.CDashboardPageSteps.verify_the_count_of_in_database_table(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@UI"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 387603700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user logged in to application as clerk",
+            "match": {
+              "location": "steps.CDashboardPageSteps.user_has_already_logged_in_to_application(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "clerk",
+                  "clerk"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-11-18T23:22:06.431Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Application.getBaseTest()"
+            }
+          }
+        ],
+        "line": 38,
+        "name": "Upload a CSV File with Column headers",
+        "description": "",
+        "id": "upload-a-csv-file-to-populate-the-database-from-ui;upload-a-csv-file-with-column-headers",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Application.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.ClerkSteps.closeDatabaseConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "user is on Clerk dashboard page",
+            "match": {
+              "location": "steps.CDashboardPageSteps.user_is_on_clerk_dashboard_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 373796500,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "user select upload a csv file from Add Hero dropdown",
+            "match": {
+              "location": "steps.CDashboardPageSteps.user_select_upload_a_csv_file_from_add_hero_dropdown()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 71587000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "user upload header record csv file",
+            "match": {
+              "location": "steps.CDashboardPageSteps.user_select_header_record_csv_file()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 59111800,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "user click create button",
+            "match": {
+              "location": "steps.CDashboardPageSteps.user_click_create_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 329265900,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "\"Unable to create hero!\" message should be displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Unable to create hero!\"",
+                  "offset": 0
+                }
+              ],
+              "location": "steps.CDashboardPageSteps.message_should_be_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3989300,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "verify the count of \"WORKING_CLASS_HEROES\" in database table",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"WORKING_CLASS_HEROES\"",
+                  "offset": 20
+                }
+              ],
+              "location": "steps.CDashboardPageSteps.verify_the_count_of_in_database_table(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@UI"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 345962100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user logged in to application as clerk",
+            "match": {
+              "location": "steps.CDashboardPageSteps.user_has_already_logged_in_to_application(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "clerk",
+                  "clerk"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-11-18T23:22:07.680Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Application.getBaseTest()"
+            }
+          }
+        ],
+        "line": 47,
+        "name": "Upload a text file no CSV File",
+        "description": "",
+        "id": "upload-a-csv-file-to-populate-the-database-from-ui;upload-a-text-file-no-csv-file",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Application.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 521600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.ClerkSteps.closeDatabaseConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "user is on Clerk dashboard page",
+            "match": {
+              "location": "steps.CDashboardPageSteps.user_is_on_clerk_dashboard_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 371765700,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "user select upload a csv file from Add Hero dropdown",
+            "match": {
+              "location": "steps.CDashboardPageSteps.user_select_upload_a_csv_file_from_add_hero_dropdown()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 66983300,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "user upload text file other than csv file",
+            "match": {
+              "location": "steps.CDashboardPageSteps.user_select_text_file_no_csv_file()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 61250200,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "user click create button",
+            "match": {
+              "location": "steps.CDashboardPageSteps.user_click_create_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 325755400,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "\"Unable to create hero!\" message should be displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Unable to create hero!\"",
+                  "offset": 0
+                }
+              ],
+              "location": "steps.CDashboardPageSteps.message_should_be_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4339200,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "verify the count of \"WORKING_CLASS_HEROES\" in database table",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"WORKING_CLASS_HEROES\"",
+                  "offset": 20
+                }
+              ],
+              "location": "steps.CDashboardPageSteps.verify_the_count_of_in_database_table(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@UI"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 556351800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user logged in to application as clerk",
+            "match": {
+              "location": "steps.CDashboardPageSteps.user_has_already_logged_in_to_application(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "clerk",
+                  "clerk"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-11-18T23:22:08.879Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Application.getBaseTest()"
+            }
+          }
+        ],
+        "line": 56,
+        "name": "Upload a empty record CSV File",
+        "description": "",
+        "id": "upload-a-csv-file-to-populate-the-database-from-ui;upload-a-empty-record-csv-file",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Application.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.ClerkSteps.closeDatabaseConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "user is on Clerk dashboard page",
+            "match": {
+              "location": "steps.CDashboardPageSteps.user_is_on_clerk_dashboard_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 265625500,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "user select upload a csv file from Add Hero dropdown",
+            "match": {
+              "location": "steps.CDashboardPageSteps.user_select_upload_a_csv_file_from_add_hero_dropdown()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 227441100,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "user upload empty record csv file",
+            "match": {
+              "location": "steps.CDashboardPageSteps.user_select_empty_record_csv_file()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 62951300,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "user click create button",
+            "match": {
+              "location": "steps.CDashboardPageSteps.user_click_create_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 214558100,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "\"Created Successfully!\" message should be displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Created Successfully!\"",
+                  "offset": 0
+                }
+              ],
+              "location": "steps.CDashboardPageSteps.message_should_be_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11975500,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "verify the count of \"WORKING_CLASS_HEROES\" in database table",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"WORKING_CLASS_HEROES\"",
+                  "offset": 20
+                }
+              ],
+              "location": "steps.CDashboardPageSteps.verify_the_count_of_in_database_table(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@UI"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 439244100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user logged in to application as clerk",
+            "match": {
+              "location": "steps.CDashboardPageSteps.user_has_already_logged_in_to_application(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "clerk",
+                  "clerk"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-11-18T23:22:10.238Z",
+        "line": 65,
+        "name": "Add a working class hero using Add a hero page",
+        "description": "",
+        "id": "upload-a-csv-file-to-populate-the-database-from-ui;add-a-working-class-hero-using-add-a-hero-page",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.ClerkSteps.closeDatabaseConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "user is on Clerk dashboard page",
+            "match": {
+              "location": "steps.CDashboardPageSteps.user_is_on_clerk_dashboard_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 276195600,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "verify Add Hero button should be displayed",
+            "match": {
+              "location": "steps.CDashboardPageSteps.verify_add_hero_button_should_be_displayed()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 264535100,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "user select Add from Add Hero dropdown",
+            "match": {
+              "location": "steps.CDashboardPageSteps.user_select_add_hero_button_from_dropdown()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 495728500,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "user enter the working class hero details to add hero",
+            "match": {
+              "location": "steps.CDashboardPageSteps.user_enter_hero_details_to_add(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "natid",
+                  "name",
+                  "gender",
+                  "birthDate",
+                  "deathDate",
+                  "salary",
+                  "taxPaid",
+                  "browniePoints"
+                ]
+              },
+              {
+                "cells": [
+                  "natid-100010",
+                  "Maria Serapovo",
+                  "FEMALE",
+                  "2002-07-21",
+                  "",
+                  "10500",
+                  "750",
+                  "6"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 68265300,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "user click create button",
+            "match": {
+              "location": "steps.CDashboardPageSteps.user_click_create_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 327188200,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "\"Created Successfully!\" message should be displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Created Successfully!\"",
+                  "offset": 0
+                }
+              ],
+              "location": "steps.CDashboardPageSteps.message_should_be_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@UIX"
+          }
+        ]
+      }
+    ],
+    "name": "Upload a CSV file to populate the database from UI",
+    "description": "",
+    "id": "upload-a-csv-file-to-populate-the-database-from-ui",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/CDashboard.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-11-18T23:22:12.127Z",
+        "line": 4,
+        "name": "Single Working Class Hero Creation",
+        "description": "",
+        "id": "working-class-hero-creation-using-api;single-working-class-hero-creation",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.ClerkSteps.closeDatabaseConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1215065100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "headers added to payload",
+            "match": {
+              "location": "steps.ClerkSteps.i_set_Headers_for_request(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "HEADER",
+                  "VALUE"
+                ]
+              },
+              {
+                "cells": [
+                  "Content-Type",
+                  "application/json"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 539994400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Make request for Single working class hero with below details",
+            "match": {
+              "location": "steps.ClerkSteps.request_body_for_Single_working_class_hero_with_below_details(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "natid",
+                  "name",
+                  "gender",
+                  "birthDate",
+                  "deathDate",
+                  "salary",
+                  "taxPaid",
+                  "browniePoints"
+                ]
+              },
+              {
+                "cells": [
+                  "natid-100001",
+                  "Maria Serapovo",
+                  "FEMALE",
+                  "2002-07-21",
+                  "",
+                  "10500",
+                  "750",
+                  "6"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1635290200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Request Post action Sent To \"api/v1/hero\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"api/v1/hero\"",
+                  "offset": 28
+                }
+              ],
+              "location": "steps.ClerkSteps.post_request_sent_to(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 67462300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "verify status code is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 22
+                }
+              ],
+              "location": "steps.ClerkSteps.the_status_code_is(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@API"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-11-18T23:22:15.644Z",
+        "line": 15,
+        "name": "Check with invalid natid where it contains aplhanumeric characters",
+        "description": "",
+        "id": "working-class-hero-creation-using-api;check-with-invalid-natid-where-it-contains-aplhanumeric-characters",
+        "after": [
+          {
+            "result": {
+              "duration": 1002400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.ClerkSteps.closeDatabaseConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3801800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "headers added to payload",
+            "match": {
+              "location": "steps.ClerkSteps.i_set_Headers_for_request(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "HEADER",
+                  "VALUE"
+                ]
+              },
+              {
+                "cells": [
+                  "Content-Type",
+                  "application/json"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4991500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Make request for Single working class hero with invalid details",
+            "match": {
+              "location": "steps.ClerkSteps.request_body_for_Single_working_class_hero_with_invalid_details(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "natid",
+                  "name",
+                  "gender",
+                  "birthDate",
+                  "deathDate",
+                  "salary",
+                  "taxPaid",
+                  "browniePoints"
+                ]
+              },
+              {
+                "cells": [
+                  "natid-abcd100001",
+                  "Maria Serapovo",
+                  "FEMALE",
+                  "2002-07-21",
+                  "",
+                  "10500",
+                  "750",
+                  "6"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 83000100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Request Post action Sent To \"api/v1/hero\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"api/v1/hero\"",
+                  "offset": 28
+                }
+              ],
+              "location": "steps.ClerkSteps.post_request_sent_to(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 998200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "verify status code for invalid natid is 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 40
+                }
+              ],
+              "location": "steps.ClerkSteps.the_status_code_for_invalid_natid_is(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@API"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-11-18T23:22:15.756Z",
+        "line": 26,
+        "name": "Check with invalid natid where it does not prefix with natid",
+        "description": "",
+        "id": "working-class-hero-creation-using-api;check-with-invalid-natid-where-it-does-not-prefix-with-natid",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.ClerkSteps.closeDatabaseConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2005300,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "headers added to payload",
+            "match": {
+              "location": "steps.ClerkSteps.i_set_Headers_for_request(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "HEADER",
+                  "VALUE"
+                ]
+              },
+              {
+                "cells": [
+                  "Content-Type",
+                  "application/json"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3997400,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Make request for Single working class hero with invalid details",
+            "match": {
+              "location": "steps.ClerkSteps.request_body_for_Single_working_class_hero_with_invalid_details(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "natid",
+                  "name",
+                  "gender",
+                  "birthDate",
+                  "deathDate",
+                  "salary",
+                  "taxPaid",
+                  "browniePoints"
+                ]
+              },
+              {
+                "cells": [
+                  "abcd100001",
+                  "Maria Serapovo",
+                  "FEMALE",
+                  "2002-07-21",
+                  "",
+                  "10500",
+                  "750",
+                  "6"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25997900,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Request Post action Sent To \"api/v1/hero\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"api/v1/hero\"",
+                  "offset": 28
+                }
+              ],
+              "location": "steps.ClerkSteps.post_request_sent_to(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1001300,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "verify status code for invalid natid is 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 40
+                }
+              ],
+              "location": "steps.ClerkSteps.the_status_code_for_invalid_natid_is(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@API"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-11-18T23:22:15.807Z",
+        "line": 37,
+        "name": "Check with invalid natid where the number is not inclusive",
+        "description": "",
+        "id": "working-class-hero-creation-using-api;check-with-invalid-natid-where-the-number-is-not-inclusive",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.ClerkSteps.closeDatabaseConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2004200,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "headers added to payload",
+            "match": {
+              "location": "steps.ClerkSteps.i_set_Headers_for_request(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "HEADER",
+                  "VALUE"
+                ]
+              },
+              {
+                "cells": [
+                  "Content-Type",
+                  "application/json"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5999400,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "Make request for Single working class hero with invalid details",
+            "match": {
+              "location": "steps.ClerkSteps.request_body_for_Single_working_class_hero_with_invalid_details(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "natid",
+                  "name",
+                  "gender",
+                  "birthDate",
+                  "deathDate",
+                  "salary",
+                  "taxPaid",
+                  "browniePoints"
+                ]
+              },
+              {
+                "cells": [
+                  "natid-10000000",
+                  "Maria Serapovo",
+                  "FEMALE",
+                  "2002-07-21",
+                  "",
+                  "10500",
+                  "750",
+                  "6"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 31997400,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "Request Post action Sent To \"api/v1/hero\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"api/v1/hero\"",
+                  "offset": 28
+                }
+              ],
+              "location": "steps.ClerkSteps.post_request_sent_to(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2001600,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "verify status code for invalid natid is 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 40
+                }
+              ],
+              "location": "steps.ClerkSteps.the_status_code_for_invalid_natid_is(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@API"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-11-18T23:22:15.870Z",
+        "line": 48,
+        "name": "Check with invalid name where the it includes numeric value",
+        "description": "",
+        "id": "working-class-hero-creation-using-api;check-with-invalid-name-where-the-it-includes-numeric-value",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.ClerkSteps.closeDatabaseConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1997700,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "headers added to payload",
+            "match": {
+              "location": "steps.ClerkSteps.i_set_Headers_for_request(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "HEADER",
+                  "VALUE"
+                ]
+              },
+              {
+                "cells": [
+                  "Content-Type",
+                  "application/json"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5997800,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "Make request for Single working class hero with invalid details",
+            "match": {
+              "location": "steps.ClerkSteps.request_body_for_Single_working_class_hero_with_invalid_details(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "natid",
+                  "name",
+                  "gender",
+                  "birthDate",
+                  "deathDate",
+                  "salary",
+                  "taxPaid",
+                  "browniePoints"
+                ]
+              },
+              {
+                "cells": [
+                  "natid-12345",
+                  "1User",
+                  "FEMALE",
+                  "2002-07-21",
+                  "",
+                  "10500",
+                  "750",
+                  "6"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 22007400,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "Request Post action Sent To \"api/v1/hero\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"api/v1/hero\"",
+                  "offset": 28
+                }
+              ],
+              "location": "steps.ClerkSteps.post_request_sent_to(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000200,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "verify status code for invalid natid is 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 40
+                }
+              ],
+              "location": "steps.ClerkSteps.the_status_code_for_invalid_natid_is(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 50271000,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "Response message contains \"Invalid name\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invalid name\"",
+                  "offset": 26
+                }
+              ],
+              "location": "steps.ClerkSteps.response_body_has(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@API"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-11-18T23:22:15.971Z",
+        "line": 60,
+        "name": "Check with invalid name where the it exceeds than allowed limit",
+        "description": "",
+        "id": "working-class-hero-creation-using-api;check-with-invalid-name-where-the-it-exceeds-than-allowed-limit",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.ClerkSteps.closeDatabaseConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 999200,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "headers added to payload",
+            "match": {
+              "location": "steps.ClerkSteps.i_set_Headers_for_request(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "HEADER",
+                  "VALUE"
+                ]
+              },
+              {
+                "cells": [
+                  "Content-Type",
+                  "application/json"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3001000,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "Make request for Single working class hero with invalid details",
+            "match": {
+              "location": "steps.ClerkSteps.request_body_for_Single_working_class_hero_with_invalid_details(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "natid",
+                  "name",
+                  "gender",
+                  "birthDate",
+                  "deathDate",
+                  "salary",
+                  "taxPaid",
+                  "browniePoints"
+                ]
+              },
+              {
+                "cells": [
+                  "natid-12345",
+                  "ABCDE1234567890FGH09876543231IJK6789054321LMNOP098765123456QRST12345609876UIWXYZABCDE1234567890FGH09876543231IJK6789054321LMNOP098765123456QRST12345609876UIWXYZ",
+                  "MALE",
+                  "2002-11-17",
+                  "",
+                  "8500",
+                  "875",
+                  "8"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 36999800,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "Request Post action Sent To \"api/v1/hero\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"api/v1/hero\"",
+                  "offset": 28
+                }
+              ],
+              "location": "steps.ClerkSteps.post_request_sent_to(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 999100,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "verify status code for invalid natid is 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 40
+                }
+              ],
+              "location": "steps.ClerkSteps.the_status_code_for_invalid_natid_is(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2000400,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "Response message contains \"Name must be between 1 and 100 characters\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Name must be between 1 and 100 characters\"",
+                  "offset": 26
+                }
+              ],
+              "location": "steps.ClerkSteps.response_body_has(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@API"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-11-18T23:22:16.036Z",
+        "line": 72,
+        "name": "Check with invalid gender",
+        "description": "",
+        "id": "working-class-hero-creation-using-api;check-with-invalid-gender",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.ClerkSteps.closeDatabaseConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2001300,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "headers added to payload",
+            "match": {
+              "location": "steps.ClerkSteps.i_set_Headers_for_request(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "HEADER",
+                  "VALUE"
+                ]
+              },
+              {
+                "cells": [
+                  "Content-Type",
+                  "application/json"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7999100,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "Make request for Single working class hero with invalid details",
+            "match": {
+              "location": "steps.ClerkSteps.request_body_for_Single_working_class_hero_with_invalid_details(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "natid",
+                  "name",
+                  "gender",
+                  "birthDate",
+                  "deathDate",
+                  "salary",
+                  "taxPaid",
+                  "browniePoints"
+                ]
+              },
+              {
+                "cells": [
+                  "natid-12345",
+                  "User",
+                  "M",
+                  "2002-07-21",
+                  "",
+                  "10500",
+                  "750",
+                  "6"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 23999300,
+              "status": "passed"
+            },
+            "line": 79,
+            "name": "Request Post action Sent To \"api/v1/hero\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"api/v1/hero\"",
+                  "offset": 28
+                }
+              ],
+              "location": "steps.ClerkSteps.post_request_sent_to(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2005900,
+              "status": "passed"
+            },
+            "line": 80,
+            "name": "verify status code for invalid natid is 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 40
+                }
+              ],
+              "location": "steps.ClerkSteps.the_status_code_for_invalid_natid_is(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1995100,
+              "status": "passed"
+            },
+            "line": 81,
+            "name": "Response message contains \"Invalid gender\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invalid gender\"",
+                  "offset": 26
+                }
+              ],
+              "location": "steps.ClerkSteps.response_body_has(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@API"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-11-18T23:22:16.094Z",
+        "line": 84,
+        "name": "Check with future deathDate",
+        "description": "",
+        "id": "working-class-hero-creation-using-api;check-with-future-deathdate",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.ClerkSteps.closeDatabaseConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1001000,
+              "status": "passed"
+            },
+            "line": 85,
+            "name": "headers added to payload",
+            "match": {
+              "location": "steps.ClerkSteps.i_set_Headers_for_request(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "HEADER",
+                  "VALUE"
+                ]
+              },
+              {
+                "cells": [
+                  "Content-Type",
+                  "application/json"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3000200,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "Make request for Single working class hero with invalid details",
+            "match": {
+              "location": "steps.ClerkSteps.request_body_for_Single_working_class_hero_with_invalid_details(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "natid",
+                  "name",
+                  "gender",
+                  "birthDate",
+                  "deathDate",
+                  "salary",
+                  "taxPaid",
+                  "browniePoints"
+                ]
+              },
+              {
+                "cells": [
+                  "natid-100005",
+                  "User",
+                  "MALE",
+                  "2002-07-21",
+                  "2025-12-26",
+                  "10500",
+                  "750",
+                  "6"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 58230200,
+              "status": "passed"
+            },
+            "line": 91,
+            "name": "Request Post action Sent To \"api/v1/hero\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"api/v1/hero\"",
+                  "offset": 28
+                }
+              ],
+              "location": "steps.ClerkSteps.post_request_sent_to(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 999400,
+              "status": "passed"
+            },
+            "line": 92,
+            "name": "verify status code for invalid natid is 500",
+            "match": {
+              "arguments": [
+                {
+                  "val": "500",
+                  "offset": 40
+                }
+              ],
+              "location": "steps.ClerkSteps.the_status_code_for_invalid_natid_is(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@API"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-11-18T23:22:16.173Z",
+        "line": 95,
+        "name": "Check with invalid salary",
+        "description": "",
+        "id": "working-class-hero-creation-using-api;check-with-invalid-salary",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.ClerkSteps.closeDatabaseConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 999500,
+              "status": "passed"
+            },
+            "line": 96,
+            "name": "headers added to payload",
+            "match": {
+              "location": "steps.ClerkSteps.i_set_Headers_for_request(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "HEADER",
+                  "VALUE"
+                ]
+              },
+              {
+                "cells": [
+                  "Content-Type",
+                  "application/json"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4000400,
+              "status": "passed"
+            },
+            "line": 99,
+            "name": "Make request for Single working class hero with invalid details",
+            "match": {
+              "location": "steps.ClerkSteps.request_body_for_Single_working_class_hero_with_invalid_details(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "natid",
+                  "name",
+                  "gender",
+                  "birthDate",
+                  "deathDate",
+                  "salary",
+                  "taxPaid",
+                  "browniePoints"
+                ]
+              },
+              {
+                "cells": [
+                  "natid-12345",
+                  "User",
+                  "MALE",
+                  "2002-07-21",
+                  "",
+                  "-11000",
+                  "750",
+                  "6"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18002200,
+              "status": "passed"
+            },
+            "line": 102,
+            "name": "Request Post action Sent To \"api/v1/hero\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"api/v1/hero\"",
+                  "offset": 28
+                }
+              ],
+              "location": "steps.ClerkSteps.post_request_sent_to(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 103,
+            "name": "verify status code for invalid natid is 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 40
+                }
+              ],
+              "location": "steps.ClerkSteps.the_status_code_for_invalid_natid_is(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1001400,
+              "status": "passed"
+            },
+            "line": 104,
+            "name": "Response message contains \"Salary must be greater than or equals to zero\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Salary must be greater than or equals to zero\"",
+                  "offset": 26
+                }
+              ],
+              "location": "steps.ClerkSteps.response_body_has(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@API"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-11-18T23:22:16.211Z",
+        "line": 107,
+        "name": "Check with creation of Working Class Hero with nullable browniepoints and deathdate",
+        "description": "",
+        "id": "working-class-hero-creation-using-api;check-with-creation-of-working-class-hero-with-nullable-browniepoints-and-deathdate",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.ClerkSteps.closeDatabaseConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000400,
+              "status": "passed"
+            },
+            "line": 108,
+            "name": "headers added to payload",
+            "match": {
+              "location": "steps.ClerkSteps.i_set_Headers_for_request(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "HEADER",
+                  "VALUE"
+                ]
+              },
+              {
+                "cells": [
+                  "Content-Type",
+                  "application/json"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2000100,
+              "status": "passed"
+            },
+            "line": 111,
+            "name": "Make request for Single working class hero with nullable on browniepoints and deathdate",
+            "match": {
+              "location": "steps.ClerkSteps.request_For_SingleWorkingClassHero_with_nullable_browniepoints(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "natid",
+                  "name",
+                  "gender",
+                  "birthDate",
+                  "deathDate",
+                  "salary",
+                  "taxPaid",
+                  "browniePoints"
+                ]
+              },
+              {
+                "cells": [
+                  "natid-100001",
+                  "Maria Serapovo",
+                  "FEMALE",
+                  "2002-07-21",
+                  "",
+                  "10500",
+                  "750",
+                  ""
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 241215400,
+              "status": "passed"
+            },
+            "line": 114,
+            "name": "Request Post action Sent To \"api/v1/hero\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"api/v1/hero\"",
+                  "offset": 28
+                }
+              ],
+              "location": "steps.ClerkSteps.post_request_sent_to(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1003900,
+              "status": "passed"
+            },
+            "line": 115,
+            "name": "verify status code is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 22
+                }
+              ],
+              "location": "steps.ClerkSteps.the_status_code_is(java.lang.Integer)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@API"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-11-18T23:22:16.470Z",
+        "line": 118,
+        "name": "Check with invalid taxpaid",
+        "description": "",
+        "id": "working-class-hero-creation-using-api;check-with-invalid-taxpaid",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.ClerkSteps.closeDatabaseConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 999600,
+              "status": "passed"
+            },
+            "line": 119,
+            "name": "headers added to payload",
+            "match": {
+              "location": "steps.ClerkSteps.i_set_Headers_for_request(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "HEADER",
+                  "VALUE"
+                ]
+              },
+              {
+                "cells": [
+                  "Content-Type",
+                  "application/json"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2999000,
+              "status": "passed"
+            },
+            "line": 122,
+            "name": "Make request for Single working class hero with invalid details",
+            "match": {
+              "location": "steps.ClerkSteps.request_body_for_Single_working_class_hero_with_invalid_details(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "natid",
+                  "name",
+                  "gender",
+                  "birthDate",
+                  "deathDate",
+                  "salary",
+                  "taxPaid",
+                  "browniePoints"
+                ]
+              },
+              {
+                "cells": [
+                  "natid-12345",
+                  "User",
+                  "MALE",
+                  "2002-07-21",
+                  "",
+                  "10500",
+                  "-750",
+                  "6"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 53208300,
+              "status": "passed"
+            },
+            "line": 125,
+            "name": "Request Post action Sent To \"api/v1/hero\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"api/v1/hero\"",
+                  "offset": 28
+                }
+              ],
+              "location": "steps.ClerkSteps.post_request_sent_to(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 542400,
+              "status": "passed"
+            },
+            "line": 126,
+            "name": "verify status code for invalid natid is 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 40
+                }
+              ],
+              "location": "steps.ClerkSteps.the_status_code_for_invalid_natid_is(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 981000,
+              "status": "passed"
+            },
+            "line": 127,
+            "name": "Response message contains \"must be greater than or equal to 0\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"must be greater than or equal to 0\"",
+                  "offset": 26
+                }
+              ],
+              "location": "steps.ClerkSteps.response_body_has(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@API"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-11-18T23:22:16.544Z",
+        "line": 130,
+        "name": "Check with creation of duplicate Single Working Class Hero",
+        "description": "",
+        "id": "working-class-hero-creation-using-api;check-with-creation-of-duplicate-single-working-class-hero",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.ClerkSteps.closeDatabaseConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 999400,
+              "status": "passed"
+            },
+            "line": 131,
+            "name": "headers added to payload",
+            "match": {
+              "location": "steps.ClerkSteps.i_set_Headers_for_request(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "HEADER",
+                  "VALUE"
+                ]
+              },
+              {
+                "cells": [
+                  "Content-Type",
+                  "application/json"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1999300,
+              "status": "passed"
+            },
+            "line": 134,
+            "name": "Make request for Single working class hero with existing natid details",
+            "match": {
+              "location": "steps.ClerkSteps.request_ForSingleWorkingClassHero_ExistingNatid(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "natid",
+                  "name",
+                  "gender",
+                  "birthDate",
+                  "deathDate",
+                  "salary",
+                  "taxPaid",
+                  "browniePoints"
+                ]
+              },
+              {
+                "cells": [
+                  "natid-100001",
+                  "Maria Serapovo",
+                  "FEMALE",
+                  "2002-07-21",
+                  "",
+                  "10500",
+                  "750",
+                  "6"
+                ]
+              },
+              {
+                "cells": [
+                  "natid-100001",
+                  "Maria Serapovo",
+                  "FEMALE",
+                  "2002-07-21",
+                  "",
+                  "10500",
+                  "750",
+                  "6"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 251178700,
+              "status": "passed"
+            },
+            "line": 138,
+            "name": "Request Post action Sent To \"api/v1/hero\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"api/v1/hero\"",
+                  "offset": 28
+                }
+              ],
+              "location": "steps.ClerkSteps.post_request_sent_to(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 139,
+            "name": "verify status code is should be either of 400 and 500",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 42
+                },
+                {
+                  "val": "500",
+                  "offset": 50
+                }
+              ],
+              "location": "steps.ClerkSteps.theStatusCodeShouldBeEither(int,int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 996900,
+              "status": "passed"
+            },
+            "line": 140,
+            "name": "Response message contains \"Working Class Hero of natid: natid-100001 already exists!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Working Class Hero of natid: natid-100001 already exists!\"",
+                  "offset": 26
+                }
+              ],
+              "location": "steps.ClerkSteps.response_body_has(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@API"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-11-18T23:22:16.812Z",
+        "line": 143,
+        "name": "Check Created Working Class Hero in database",
+        "description": "",
+        "id": "working-class-hero-creation-using-api;check-created-working-class-hero-in-database",
+        "after": [
+          {
+            "result": {
+              "duration": 922100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.ClerkSteps.closeDatabaseConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 39272900,
+              "status": "passed"
+            },
+            "line": 144,
+            "name": "user establish a database connection",
+            "match": {
+              "location": "steps.ClerkSteps.establishDatabaseConnection()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3206000,
+              "status": "passed"
+            },
+            "line": 145,
+            "name": "user execute query \"SELECT * FROM working_class_heroes WHERE natid \u003d natid-100001\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"SELECT * FROM working_class_heroes WHERE natid \u003d natid-100001\"",
+                  "offset": 19
+                }
+              ],
+              "location": "steps.ClerkSteps.executeQuery(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000800,
+              "status": "passed"
+            },
+            "line": 146,
+            "name": "user should receive a non empty resultset",
+            "match": {
+              "location": "steps.ClerkSteps.verifySingleUser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@API"
+          }
+        ]
+      }
+    ],
+    "name": "Working Class Hero creation using API",
+    "description": "",
+    "id": "working-class-hero-creation-using-api",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/ClerkApi.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-11-18T23:22:16.872Z",
+        "line": 3,
+        "name": "Check owe-money api with valid natid",
+        "description": "",
+        "id": "external-service-api-calls;check-owe-money-api-with-valid-natid",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.ClerkSteps.closeDatabaseConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Headers added to ExternalService Request",
+            "match": {
+              "location": "steps.ExternalServiceSteps.i_set_Headers_for_request(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "HEADER",
+                  "VALUE"
+                ]
+              },
+              {
+                "cells": [
+                  "Content-Type",
+                  "application/json"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 891167100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "send GET request to ExternalService \"api/v1/hero/owe-money?natid\u003d8525\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"api/v1/hero/owe-money?natid\u003d8525\"",
+                  "offset": 36
+                }
+              ],
+              "location": "steps.ExternalServiceSteps.sendGetReqToExternalSvc(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 998100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "ExternalService response status code is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 40
+                }
+              ],
+              "location": "steps.ExternalServiceSteps.externalSvcRespStatusCode(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Response body contains \"natid-8525\" and \"OWE\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"natid-8525\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"OWE\"",
+                  "offset": 40
+                }
+              ],
+              "location": "steps.ExternalServiceSteps.response_body_has(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@API"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-11-18T23:22:17.781Z",
+        "line": 12,
+        "name": "Check owe-money api with invalid natid",
+        "description": "",
+        "id": "external-service-api-calls;check-owe-money-api-with-invalid-natid",
+        "after": [
+          {
+            "result": {
+              "duration": 999500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.ClerkSteps.closeDatabaseConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 999500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Headers added to ExternalService Request",
+            "match": {
+              "location": "steps.ExternalServiceSteps.i_set_Headers_for_request(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "HEADER",
+                  "VALUE"
+                ]
+              },
+              {
+                "cells": [
+                  "Content-Type",
+                  "application/json"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 31002800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "send GET request to ExternalService \"api/v1/hero/owe-money?natid\u003dabcd\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"api/v1/hero/owe-money?natid\u003dabcd\"",
+                  "offset": 36
+                }
+              ],
+              "location": "steps.ExternalServiceSteps.sendGetReqToExternalSvc(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "ExternalService response status code is 500",
+            "match": {
+              "arguments": [
+                {
+                  "val": "500",
+                  "offset": 40
+                }
+              ],
+              "location": "steps.ExternalServiceSteps.externalSvcRespStatusCode(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Response body contains \"Internal Server Error\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Internal Server Error\"",
+                  "offset": 23
+                }
+              ],
+              "location": "steps.ExternalServiceSteps.response_body_contains(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@API"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-11-18T23:22:17.829Z",
+        "line": 21,
+        "name": "Check owe-money api with valid natid and validate its response format",
+        "description": "",
+        "id": "external-service-api-calls;check-owe-money-api-with-valid-natid-and-validate-its-response-format",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.ClerkSteps.closeDatabaseConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Headers added to ExternalService Request",
+            "match": {
+              "location": "steps.ExternalServiceSteps.i_set_Headers_for_request(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "HEADER",
+                  "VALUE"
+                ]
+              },
+              {
+                "cells": [
+                  "Content-Type",
+                  "application/json"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 41000600,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "send GET request to ExternalService \"api/v1/hero/owe-money?natid\u003d8525\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"api/v1/hero/owe-money?natid\u003d8525\"",
+                  "offset": 36
+                }
+              ],
+              "location": "steps.ExternalServiceSteps.sendGetReqToExternalSvc(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000200,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "ExternalService response status code is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 40
+                }
+              ],
+              "location": "steps.ExternalServiceSteps.externalSvcRespStatusCode(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 998500,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "verify response body format \"natid-8525\" and \"OWE\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"natid-8525\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"OWE\"",
+                  "offset": 45
+                }
+              ],
+              "location": "steps.ExternalServiceSteps.validate_response_body(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@API"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-11-18T23:22:17.888Z",
+        "line": 30,
+        "name": "Check owe-money api with valid natid and validating its response schema structure",
+        "description": "",
+        "id": "external-service-api-calls;check-owe-money-api-with-valid-natid-and-validating-its-response-schema-structure",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.ClerkSteps.closeDatabaseConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2999500,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Headers added to ExternalService Request",
+            "match": {
+              "location": "steps.ExternalServiceSteps.i_set_Headers_for_request(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "HEADER",
+                  "VALUE"
+                ]
+              },
+              {
+                "cells": [
+                  "Content-Type",
+                  "application/json"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 59000900,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "send GET request to ExternalService \"api/v1/hero/owe-money?natid\u003d8525\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"api/v1/hero/owe-money?natid\u003d8525\"",
+                  "offset": 36
+                }
+              ],
+              "location": "steps.ExternalServiceSteps.sendGetReqToExternalSvc(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000800,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "ExternalService response status code is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 40
+                }
+              ],
+              "location": "steps.ExternalServiceSteps.externalSvcRespStatusCode(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 587659200,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "verify response body schema structure \"natid-8525\" and \"OWE\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"natid-8525\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"OWE\"",
+                  "offset": 55
+                }
+              ],
+              "location": "steps.ExternalServiceSteps.validate_response_schema_structure(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@API"
+          }
+        ]
+      }
+    ],
+    "name": "External Service Api calls",
+    "description": "",
+    "id": "external-service-api-calls",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/ExternalServiceApi.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-11-18T23:22:18.554Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Application.getBaseTest()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Login page title",
+        "description": "",
+        "id": "login-page-of-a-working-class-hero-system;login-page-title",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Application.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.ClerkSteps.closeDatabaseConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 82394800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on login page",
+            "match": {
+              "location": "steps.LoginSteps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 32003200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user gets the header of the login page",
+            "match": {
+              "location": "steps.LoginSteps.user_gets_the_header_of_the_login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "header of the login page should be \"Working Class Hero System\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Working Class Hero System\"",
+                  "offset": 35
+                }
+              ],
+              "location": "steps.LoginSteps.header_of_the_login_page_should_be(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@UI"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-11-18T23:22:18.703Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Application.getBaseTest()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Login with correct credentials",
+        "description": "",
+        "id": "login-page-of-a-working-class-hero-system;login-with-correct-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 999500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Application.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.ClerkSteps.closeDatabaseConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 78000200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user is on login page",
+            "match": {
+              "location": "steps.LoginSteps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 43166700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enters username \"clerk\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"clerk\"",
+                  "offset": 21
+                }
+              ],
+              "location": "steps.LoginSteps.user_enters_username(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 24997000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user enters password \"clerk\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"clerk\"",
+                  "offset": 21
+                }
+              ],
+              "location": "steps.LoginSteps.user_enters_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 255938400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user click on Submit button",
+            "match": {
+              "location": "steps.LoginSteps.user_click_on_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 251767300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user lands on the header of the clerk dashboard page",
+            "match": {
+              "location": "steps.CDashboardPageSteps.user_gets_the_header_of_the_clerk_dashboard_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "clerk dashboard page header should be \"Clerk Dashboard\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Clerk Dashboard\"",
+                  "offset": 38
+                }
+              ],
+              "location": "steps.CDashboardPageSteps.header_of_the_clerk_dashboard_page_should_be(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@UI"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-11-18T23:22:19.372Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Application.getBaseTest()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Login with invalid credentials",
+        "description": "",
+        "id": "login-page-of-a-working-class-hero-system;login-with-invalid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 998700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Application.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.ClerkSteps.closeDatabaseConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 46997000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user is on login page",
+            "match": {
+              "location": "steps.LoginSteps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 43427100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user enters username \"csk01\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"csk01\"",
+                  "offset": 21
+                }
+              ],
+              "location": "steps.LoginSteps.user_enters_username(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 22957900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user enters password \"csk01\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"csk01\"",
+                  "offset": 21
+                }
+              ],
+              "location": "steps.LoginSteps.user_enters_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 208041500,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user click on Submit button",
+            "match": {
+              "location": "steps.LoginSteps.user_click_on_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33998800,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user lands on the error message in the page",
+            "match": {
+              "location": "steps.LoginSteps.user_gets_the_error_message_in_the_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "error message should be \"Unable to log in successfully!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Unable to log in successfully!\"",
+                  "offset": 24
+                }
+              ],
+              "location": "steps.LoginSteps.error_message_should_be(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@UI"
+          }
+        ]
+      }
+    ],
+    "name": "Login Page of a Working Class Hero System",
+    "description": "",
+    "id": "login-page-of-a-working-class-hero-system",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Login.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-11-18T23:22:19.746Z",
+        "line": 4,
+        "name": "Creation of Single Working Class Hero with Vouchers",
+        "description": "",
+        "id": "adding-vouchers-to-working-class-heroes-using-api;creation-of-single-working-class-hero-with-vouchers",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.ClerkSteps.closeDatabaseConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Headers added to Vouchers Request",
+            "match": {
+              "location": "steps.VoucherSteps.i_set_Headers_for_request(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "HEADER",
+                  "VALUE"
+                ]
+              },
+              {
+                "cells": [
+                  "Content-Type",
+                  "application/json"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10998900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Make request for a Single working class hero and vouchers with below details",
+            "match": {
+              "location": "steps.VoucherSteps.request_body_for_Single_working_class_hero_and_vouchers_below_details(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "natid",
+                  "name",
+                  "gender",
+                  "birthDate",
+                  "deathDate",
+                  "salary",
+                  "taxPaid",
+                  "browniePoints"
+                ]
+              },
+              {
+                "cells": [
+                  "natid-100002",
+                  "Stephen Richard",
+                  "MALE",
+                  "1998-10-25",
+                  "",
+                  "10000",
+                  "950",
+                  "7"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 298018100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "send vouchers request to \"api/v1/hero/vouchers\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"api/v1/hero/vouchers\"",
+                  "offset": 25
+                }
+              ],
+              "location": "steps.VoucherSteps.i_send_POST_request_to(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1001300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "verify vouchers response statuscode 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 36
+                }
+              ],
+              "location": "steps.VoucherSteps.the_status_code_is(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@API"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-11-18T23:22:20.081Z",
+        "line": 15,
+        "name": "Check created vouchers added in database",
+        "description": "",
+        "id": "adding-vouchers-to-working-class-heroes-using-api;check-created-vouchers-added-in-database",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.ClerkSteps.closeDatabaseConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 62897000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user execute vouchers query \"SELECT * FROM vouchers WHERE name \u003d \u0027VOUCHER 1\u0027\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"SELECT * FROM vouchers WHERE name \u003d \u0027VOUCHER 1\u0027\"",
+                  "offset": 28
+                }
+              ],
+              "location": "steps.VoucherSteps.executeQuery(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user should receive a non empty resultset added with vouchers",
+            "match": {
+              "location": "steps.VoucherSteps.voucher_validate_in_database()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@API"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-11-18T23:22:20.158Z",
+        "line": 20,
+        "name": "Single Working Class Hero creation with empty Vouchers",
+        "description": "",
+        "id": "adding-vouchers-to-working-class-heroes-using-api;single-working-class-hero-creation-with-empty-vouchers",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.ClerkSteps.closeDatabaseConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Headers added to Vouchers Request",
+            "match": {
+              "location": "steps.VoucherSteps.i_set_Headers_for_request(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "HEADER",
+                  "VALUE"
+                ]
+              },
+              {
+                "cells": [
+                  "Content-Type",
+                  "application/json"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3000300,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Make request for a Single working class hero and empty vouchers with below details",
+            "match": {
+              "location": "steps.VoucherSteps.request_body_for_Single_working_class_hero_and_empty_vouchers_below_details(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "natid",
+                  "name",
+                  "gender",
+                  "birthDate",
+                  "deathDate",
+                  "salary",
+                  "taxPaid",
+                  "browniePoints"
+                ]
+              },
+              {
+                "cells": [
+                  "natid-100002",
+                  "Stephen Richard",
+                  "MALE",
+                  "1998-10-25",
+                  "",
+                  "10000",
+                  "950",
+                  "7"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 22952500,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "send vouchers request to \"api/v1/hero/vouchers\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"api/v1/hero/vouchers\"",
+                  "offset": 25
+                }
+              ],
+              "location": "steps.VoucherSteps.i_send_POST_request_to(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1001400,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "verify vouchers response statuscode 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 36
+                }
+              ],
+              "location": "steps.VoucherSteps.the_status_code_is(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "verify response message as \"vouchers cannot be null or empty\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"vouchers cannot be null or empty\"",
+                  "offset": 27
+                }
+              ],
+              "location": "steps.VoucherSteps.validateResponseBody(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@API"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-11-18T23:22:20.202Z",
+        "line": 32,
+        "name": "Check vouchers added in db, which created with invalid details.",
+        "description": "",
+        "id": "adding-vouchers-to-working-class-heroes-using-api;check-vouchers-added-in-db--which-created-with-invalid-details.",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.ClerkSteps.closeDatabaseConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 609500,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Headers added to Vouchers Request",
+            "match": {
+              "location": "steps.VoucherSteps.i_set_Headers_for_request(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "HEADER",
+                  "VALUE"
+                ]
+              },
+              {
+                "cells": [
+                  "Content-Type",
+                  "application/json"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3990000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Make request for a Single working class hero and vouchers with below invalid details",
+            "match": {
+              "location": "steps.VoucherSteps.request_body_for_Single_working_class_hero_and_vouchers_with_invalid_details(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "natid",
+                  "name",
+                  "gender",
+                  "birthDate",
+                  "deathDate",
+                  "salary",
+                  "taxPaid",
+                  "browniePoints"
+                ]
+              },
+              {
+                "cells": [
+                  "natid-100001",
+                  "Maria Serapovo",
+                  "FEMALE",
+                  "1998-10-25",
+                  "",
+                  "11250",
+                  "950",
+                  "7"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4643800,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "user execute vouchers query \"SELECT * FROM vouchers WHERE name \u003d \u0027VOUCHER 2\u0027\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"SELECT * FROM vouchers WHERE name \u003d \u0027VOUCHER 2\u0027\"",
+                  "offset": 28
+                }
+              ],
+              "location": "steps.VoucherSteps.executeQuery(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "user should receive a non empty resultset added with vouchers",
+            "match": {
+              "location": "steps.VoucherSteps.voucher_validate_in_database()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@API"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-11-18T23:22:20.227Z",
+        "line": 43,
+        "name": "Number of vouchers each customer has each voucher category",
+        "description": "",
+        "id": "adding-vouchers-to-working-class-heroes-using-api;number-of-vouchers-each-customer-has-each-voucher-category",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.ClerkSteps.closeDatabaseConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 999300,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "Headers added to Vouchers Request",
+            "match": {
+              "location": "steps.VoucherSteps.i_set_Headers_for_request(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "HEADER",
+                  "VALUE"
+                ]
+              },
+              {
+                "cells": [
+                  "Content-Type",
+                  "application/json"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 50756900,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "send vouchers request by person and type to \"api/v1/voucher/by-person-and-type\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"api/v1/voucher/by-person-and-type\"",
+                  "offset": 44
+                }
+              ],
+              "location": "steps.VoucherSteps.i_send_POST_request_by_person_and_type_to(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "verify vouchers response statuscode 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 36
+                }
+              ],
+              "location": "steps.VoucherSteps.the_status_code_is(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "verify response body for vouchers",
+            "match": {
+              "location": "steps.VoucherSteps.validateResponseBodyForVouchers()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@API"
+          }
+        ]
+      }
+    ],
+    "name": "Adding Vouchers to working class heroes using API",
+    "description": "",
+    "id": "adding-vouchers-to-working-class-heroes-using-api",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/VoucherApi.feature",
+    "tags": []
+  }
+]

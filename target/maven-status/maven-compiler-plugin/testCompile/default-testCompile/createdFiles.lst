@@ -1,0 +1,8 @@
+testrunner\TestRunner.class
+steps\LoginSteps.class
+steps\ExternalServiceSteps.class
+steps\ClerkSteps.class
+steps\VoucherSteps.class
+steps\BKDashboardPageSteps.class
+hooks\Application.class
+steps\CDashboardPageSteps.class
