@@ -101,29 +101,6 @@ public class VoucherSteps {
         response.then().assertThat().statusCode(statusCode);
     }
 
-    /*@Given("user establish sql database connection")
-    public void establishDatabaseConnection() {
-        try {
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/testdb", "user", "userpassword");
-            statement = connection.createStatement();
-        } catch (Exception ex) {
-            System.out.println("DB Connection issue" + ex);
-        }
-    }
-
-    @When("user click create button")
-    public void user_click_create_button() throws SQLException {
-        Statement statement = DBUtils.createStatement();
-        ResultSet rs = statement.executeQuery("select count(*) from working_class_heroes");
-        while (rs.next()) {
-            beforeCsvUploadRecCount = rs.getInt(1);
-            System.out.println("Data count before importing empty csv file:" + beforeCsvUploadRecCount);
-        }
-        clerkPage.clickCreateButton();
-
-        DBUtils.closeStatement();
-    }*/
-
     @Given("user execute vouchers query {string}")
     public void executeQuery(String query) {
         Statement statement = DBConnect.createStatement();
