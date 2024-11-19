@@ -48,7 +48,7 @@ Playwright over selenium for faster, more reliable test execution with built-in 
 1. Clone the repository to your local machine:  `qe_challenge_gpo`.
 
    ```
-   git clone https://github.com/yourusername/qe_challenge_gpo.git
+   git clone https://github.com/saafihub/qe_challenge_gpo.git
    cd qe_challenge_gpo
    ```
 3. Install necessary dependencies.
