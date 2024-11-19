@@ -32,6 +32,7 @@ Playwright over selenium for faster, more reliable test execution with built-in 
       │            │   ├── dataProviders   # Test data
       │            │   ├── features   # feature files
       │            │   ├── cucumber.properties  
+      target # generated class files, reports etc
       pom.xml # include all lib dependencies
       README.md # Instruction file.
 
