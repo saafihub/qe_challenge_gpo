@@ -1,80 +1,87 @@
 ## About
-Technical Challenge : Playwright(UI)+Python
+QE Technical Assignment : Playwright(UI)+Rest Assured(API)+Java
 
-This Playwright-based automation framework is structured using the Page Object Model (POM) and Playwright features. It is designed to accommodate multiple types of tests—API, UI functionality, with BDD Style within a single framework. The framework is built with scalability and extensibility in mind to add more test types with enhanced maintainability, reusability and also by separating concerns (e.g., test logic, page objects, and test data), the framework makes it easier to manage and scale as the application grows.
+This Playwright-based Java automation framework is structured using the Page Object Model (POM) and Playwright Fixtures. It is designed to accommodate multiple types of tests—API, UI functionality, with BDD within a single framework. The framework is built with scalability and extensibility in mind to add more test types with enhanced 
+maintainability, reusability and also by separating concerns (e.g., test logic, page objects, and test data), the framework makes it easier to manage and scale as the application grows.
 
-In this Automation framework, Covered user story with 12 Scenarios through comprehensive End-to-End (E2E) testing. This approach integrated UI layers, ensuring a robust assessment of  application’s functionality and performance. 
+In this Functional automation framework(Hybrid), Covered all 6 user stories through comprehensive End-to-End (E2E) testing. This approach integrated multiple testing layers, including API, UI, and database validations, ensuring a robust assessment of our application’s functionality and performance. 
 
-This Framework is Scalable to combine various testing methodologies not only to ensure complete coverage of user requirements also improved the clarity and communication of test cases among stakeholders. This holistic approach significantly contributes to delivering a high-quality product that aligns with user expectations.
+By combining various testing methodologies not only ensured complete coverage of user requirements also improved the clarity and communication of test cases among stakeholders. This holistic approach significantly contributes to delivering a high-quality product that aligns with user expectations.
 
-## Automated Testing Framework Design
-1.	Page Object Model (POM): Each UI component and page flow are encapsulated in a separate class, reducing duplication and ensuring reusable and maintainable code. This structure enhances readability and scalability of test cases.
-2.	BDD Implementation: Select scenarios are implemented with BDD syntax, enhancing communication with non-technical stakeholders.
-3.	Test Data Management: Dynamic and static test data configurations are included to support test scenarios, can able to use external files and environment-specific configurations.
-4.	Reporting: Detailed test execution reports with screenshots and logs for failed steps are generated, aiding in faster debugging and resolution.
+For More Info : Automation Test Strategy document.docx
 
-## Testing Architecture and Tools
-1.	Test Framework: Playwright(UI) with Python [Can achive with Selenium, Cypress etc]
-2.	Design Pattern: Page Object Model (POM)
-3.	Testing Framework(Hybrid): BDD Structured using Playwright’s Cucumber-style syntax.
-4.	Continuous Integration: Jenkins/GitHub Actions (Can Integrate)
-
-## Why Playwright?
-Playwright over selenium for faster, more reliable test execution with built-in features like automatic waiting, cross-browser consistency, and modern web and api support. Playwright simplifies test writing and offers better handling of complex web applications, while Selenium can be slower and requires more manual setup and synchronization.
+```
+Why Playwright?
+Playwright over selenium for faster, more reliable test execution with built-in features waiting, 
+cross-browser consistency, and modern web support. Playwright simplifies test writing and offers 
+better handling of complex web applications, while Selenium can be slower and requires more manual 
+setup and synchronization.
 ```
 
 ## Framework Structure
-      ├── features      # feature files
-      ├── pages         # Page Object Model (POM) classes
-      ├── steps         # step definition files
-      ├── reports       # generated class files, reports etc
-      ├── utils         # Utility classes (e.g., logger etc)
-      config.json       # configuration files
-      behave.ini        # init files
-      environment.py    # application hooks
-      README.md         # Instruction file.
-      requirement.txt   # install dependencies
-      
+      src
+      ├── main
+      │    ├── java(org.gpo)
+      │    │   ├── driver          # driver files
+      │    │   ├── pages           # Page Object Model (POM) classes
+      │    │   ├── utils           # Utility classes (e.g., helper methods, constants)
+      │    └── test
+      │        ├── java
+      │            ├── tests      
+      │            │   ├── hooks   # application hooks
+      │            │   ├── steps   # step definition files
+      │            │   ├── testrunner   # runner file
+      │            ├── resources   
+      │            │   ├── config   # configuration files
+      │            │   ├── dataProviders   # Test data
+      │            │   ├── features   # feature files
+      │            │   ├── cucumber.properties  
+      pom.xml # include all lib dependencies
+      README.md # Instruction file.
+
    
 
 ## Prerequisites
    ```
-   Install Python 3.10 or higher(3.11).
-   Ensure python installed correctly
-   python --version
+   Java JDK 11 or higher - https://www.oracle.com/java/technologies/javase-downloads.html
+   Node.js and npm (required for Playwright) - https://nodejs.org/
+   Maven - https://maven.apache.org/download.cgi
+   Playwright - Installed via npm.
    ```
-1. Clone the repository to your local machine:  `QAassessment`.
+1. Clone the repository to your local machine:  `qe_challenge_gpo`.
 
    ```
-   git clone https://github.com/saafihub/QAassessment.git
-   cd QAassessment
+   git clone https://github.com/yourusername/qe_challenge_gpo.git
+   cd qe_challenge_gpo
    ```
-2. Build the Project(Steps).
+3. Install necessary dependencies.
+
    ```
-   Once done with above steps then continue in terminal
-       1. pip install virtualenv
-       2. To isolate virtual environment, Goto ‘QAassessment’> Type Command: ‘py -3.11 -m venv qa_assess_tests’
-       3. To get isolated environment, Go to folder ‘qa_assess_tests>Scripts’ and Type: ‘activate’
-       4. Go back to root folder ‘QAassessment’
-       6. To install all necessary packages, need to run the sample tests, Type: ‘pip install -r requirements.txt’
-       7. playwright install
+   Ensure Java, Node.js, and Maven are correctly installed by verifying their versions:
+   java -version
+   node -v
+   npm -v
+   mvn -v
+   ```
+4. Install browsers.
+
+   ```
+   npx playwright install
+   ```
+5. Build the Project.
+
+   ```
+   mvn clean install
    ```
    
 5. Run tests.
 
    ```
-   1. # Run ui tests and generate allure reports[regenerated on "./allure-results"].
-   To run tests --> behave --format allure_behave.formatter:AllureFormatter --outfile ./allure-results
-   
-   2. # Run ui tests and generate junit reports [junit report regenerated on "./reports"].
-   To run tests --> behave --junit
- 
+   # Run ui and api tests.
+    To run tests --> mvn clean test
  
    ```
 6. View reports and logs.
    ```
-    1. Check Allure report : allure serve ./allure-results
-   
-    2. Check Junit report : junit2html ./reports/TESTS-features.organize_todos.xml ./reports/testReport.html
-
+    1. Check reports for all tests --> target>>cucumber-reports.html
     ```
